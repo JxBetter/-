@@ -1,6 +1,5 @@
 import config
 import unittest
-import HTMLTestRunner
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 
@@ -152,30 +151,3 @@ class TestSfUi(unittest.TestCase):
         self.assertEqual(self.driver.current_url, 'https://segmentfault.com/lives')
         self.driver.forward()
         self.assertEqual(self.driver.current_url, 'https://segmentfault.com/groups')
-
-
-if __name__ == '__main__':
-    suite = unittest.TestSuite()
-    # suite.addTest(TestSfUi("test_sf_ui_001"))
-    # suite.addTest(TestSfUi("test_sf_ui_002"))
-    # suite.addTest(TestSfUi("test_sf_ui_003"))
-    # suite.addTest(TestSfUi("test_sf_ui_004"))
-    # suite.addTest(TestSfUi("test_sf_ui_005"))
-    # suite.addTest(TestSfUi("test_sf_ui_006"))
-    # suite.addTest(TestSfUi("test_sf_ui_007"))
-    # suite.addTest(TestSfUi("test_sf_ui_008"))
-    # suite.addTest(TestSfUi("test_sf_ui_009"))
-    # suite.addTest(TestSfUi("test_sf_ui_010"))
-    # suite.addTest(TestSfUi("test_sf_ui_011"))
-    # suite.addTest(TestSfUi("test_sf_ui_012"))
-    # suite.addTest(TestSfUi("test_sf_ui_013"))
-    # suite.addTest(TestSfUi("test_sf_ui_014"))
-    # suite.addTest(TestSfUi("test_sf_ui_015"))
-    # suite.addTest(TestSfUi("test_sf_ui_016"))
-    # suite.addTest(TestSfUi("test_sf_ui_017"))
-    # suite.addTest(TestSfUi("test_sf_ui_018"))
-    suite.addTest(TestSfUi("test_sf_ui_019"))
-
-    with open('./res.html', 'wb') as f:
-        runner = HTMLTestRunner.HTMLTestRunner(stream=f, verbosity=2, title='segmentfault测试报告')
-        runner.run(suite)
