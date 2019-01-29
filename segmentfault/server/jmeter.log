@@ -1,0 +1,38 @@
+2018-12-25 10:40:07,601 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-12-25 10:40:07,663 INFO o.a.j.JMeter: Loading user properties from: /usr/local/soft/apache-jmeter-5.0/bin/user.properties
+2018-12-25 10:40:07,663 INFO o.a.j.JMeter: Loading system properties from: /usr/local/soft/apache-jmeter-5.0/bin/system.properties
+2018-12-25 10:40:07,669 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-12-25 10:40:07,669 INFO o.a.j.JMeter: Version 5.0 r1840935
+2018-12-25 10:40:07,669 INFO o.a.j.JMeter: java.version=11.0.1
+2018-12-25 10:40:07,669 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-12-25 10:40:07,669 INFO o.a.j.JMeter: os.name=Linux
+2018-12-25 10:40:07,669 INFO o.a.j.JMeter: os.arch=amd64
+2018-12-25 10:40:07,669 INFO o.a.j.JMeter: os.version=3.10.0-514.26.2.el7.x86_64
+2018-12-25 10:40:07,669 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-12-25 10:40:07,669 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-12-25 10:40:07,670 INFO o.a.j.JMeter: Available Processors =1
+2018-12-25 10:40:07,693 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-12-25 10:40:07,693 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-12-25 10:40:07,693 INFO o.a.j.JMeter: JMeterHome=/usr/local/soft/apache-jmeter-5.0
+2018-12-25 10:40:07,693 INFO o.a.j.JMeter: user.dir  =/usr/local/soft/server
+2018-12-25 10:40:07,693 INFO o.a.j.JMeter: PWD       =/usr/local/soft/server
+2018-12-25 10:40:07,694 INFO o.a.j.JMeter: IP: 119.23.216.161 Name: izwz91q05lzhger9tenv87z FullName: iZwz91q05lzhger9tenv87Z
+2018-12-25 10:40:07,738 ERROR o.a.j.JMeter: An error occurred: 
+java.awt.HeadlessException: 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+	at java.awt.GraphicsEnvironment.checkHeadless(GraphicsEnvironment.java:208) ~[?:?]
+	at java.awt.Window.<init>(Window.java:548) ~[?:?]
+	at java.awt.Frame.<init>(Frame.java:423) ~[?:?]
+	at java.awt.Frame.<init>(Frame.java:388) ~[?:?]
+	at javax.swing.SwingUtilities$SharedOwnerFrame.<init>(SwingUtilities.java:1919) ~[?:?]
+	at javax.swing.SwingUtilities.getSharedOwnerFrame(SwingUtilities.java:1995) ~[?:?]
+	at javax.swing.JWindow.<init>(JWindow.java:183) ~[?:?]
+	at javax.swing.JWindow.<init>(JWindow.java:135) ~[?:?]
+	at org.apache.jmeter.SplashScreen.<init>(SplashScreen.java:45) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.JMeter.startGui(JMeter.java:368) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.JMeter.start(JMeter.java:536) [ApacheJMeter_core.jar:5.0 r1840935]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:245) [ApacheJMeter.jar:5.0 r1840935]
